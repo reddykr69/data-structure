@@ -3,7 +3,7 @@
 struct node{
     int data;
     struct node *next;
-}
+};
 struct node *front=NULL;
 struct node *rear=NULL;
 void en(int x)
